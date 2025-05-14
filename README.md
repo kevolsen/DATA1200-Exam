@@ -1,0 +1,1 @@
+This is the exam submission in <a href="https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1200/2024/H%C3%98ST" target="_blank">DATA1200 Inclusive Web Design</a>, an introduction to web programming. It served as a simple website to display a restaurant menu and recived a grade B. 
