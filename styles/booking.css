@@ -1,0 +1,247 @@
+
+/* Booking form */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+
+  .button-send {
+    background-color: #233a49;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .button-send:hover {
+    background-color: white;
+    color: #233a49;
+  }
+  
+  .container-contact-form {
+    background-color: #f2f2f2;
+    border-color: black;
+    padding: 20px;
+    width: 50%;
+    border-bottom-right-radius: 20px;
+  }
+
+
+.booking-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    backdrop-filter: blur(2px);
+}
+
+.frontimg{
+    max-width: 100%;
+    height: auto;
+}
+
+.booking-main {
+    display: flex;
+    flex-direction: row;
+       -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+/* Booking information */
+#booking {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    border-color: #0f0809;
+    border-radius: 20px;
+}
+
+#booking-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #233a49;
+    border-top-left-radius: 20px;
+    border-right-color: black;
+    
+}
+
+#booking-information {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.booking-information {    
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: #233a49;
+    margin: 100px;
+    width: 100%;
+    padding: 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+
+.booking-restaurant {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    border-color: #233a49;
+    margin: 10px;
+    width: 40%;
+    padding: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+#booking-restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+.booking-bottom {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
+#line {
+    color: black;
+    width: 20%;
+    margin: auto;
+}
+
+.booking-restaurant-header {
+    font-family: 'Quicksand', bold;
+    font-size: 25px;
+}
+
+.booking-restaurant-adress {
+    font-family: 'Quicksand', normal;
+    font-size: 15px;
+    margin:0;
+}
+
+.booking-restuarant-opening-weekday {
+    font-family: 'Quicksand', normal;
+    font-size: 15px;
+}
+
+.booking-restuarant-opening-weekend {
+    font-family: 'Quicksand', normal;
+    font-size: 15px;
+}
+
+.booking-restuarant-kitcheninfo {
+    font-family: 'Quicksand', oblique;
+    font-size: 15px;
+    margin:0;
+}
+
+.booking-restuarant-telephone {
+    font-family: 'Quicksand', oblique;
+    font-size: 15px;
+    margin: 0;
+}
+
+.booking-restuarant-mail {
+    font-family: 'Quicksand', oblique;
+    font-size: 15px;
+    margin:0;
+}
+
+.booking-header {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Quicksand', bold;
+}
+
+.booking-text {
+    font-size: 20px;
+    font-family: 'Quicksand', bold;
+}
+
+/* Skjermstørrelser */ 
+
+@media (max-width: 1200px) {
+    .container-contact-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .booking-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #booking-container {
+        display: flex;
+        background-color: #233a49;
+        border-top-left-radius: 20px;
+        border-right-color: black;
+        width: 100%;
+        
+    }
+    .container-contact-form {
+        width: 95%;
+        border-top-right-radius: 0px;
+        margin-bottom: 5em;
+    }
+    
+}
+
+@media (max-width: 750px) {
+
+    .container-contact-form {
+        width: 71%;
+        border-top-right-radius: 0px;
+        margin-bottom: 5em;
+    }
+
+    #booking-container {
+        display: flex;
+        background-color: #233a49;
+        border-top-left-radius: 20px;
+        border-right-color: black;
+        width: 80%;
+        
+    }
+
+    .booking-information {    
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        border-color: #233a49;
+        margin: 60px;
+        width: 100%;
+        padding: 50px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+        -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+        box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    }
+}
